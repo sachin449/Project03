@@ -9,7 +9,7 @@ const PORT = 5000;
 app.use(cors());
 
 // Replace with your OpenWeather API key
-const API_KEY = '74d201873bc02af6ff1c70fa6fb58d7a';
+// const API_KEY = '74d201873bc02af6ff1c70fa6fb58d7a';
 
 // API route to get weather data for a specific city
 app.get('/api/weather', async (req, res) => {
